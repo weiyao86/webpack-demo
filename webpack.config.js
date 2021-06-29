@@ -1,16 +1,23 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ChangeVersion = require('./config/plugin/changeVersion');//更改版本号
+/*自定义插件*/
+let version=0;
+ChangeVersion((v)=>version=v);
+
 module.exports = {
   entry: './src/main.js', // 入口, 可以为相对路径, 当然绝对路径也没错
   output: { // 输出配置
     path: path.join(__dirname, './dist'), // 输出的目录
-    filename: '[name].js' // 输出的文件名
+    filename: `[name]_${version}.js` // 输出的文件名
   },
   mode: 'production', // 打包的模式, production | development
   module: {
     rules: [{
       test: /\.css$/,
-      use: ['style-loader', 'css-loader']
+      use: [MiniCssExtractPlugin.loader, 'css-loader']
     }]
   },
 
@@ -44,10 +51,16 @@ module.exports = {
     hot: true
   },
   plugins: [
-    // new webpack.HotModuleReplacementPlugin(),
+    new MiniCssExtractPlugin({
+      filename: `style/[name]_${version}.css`,
+      chunkFilename: `chunk/[name]_${version}.css`,
+      ignoreOrder: true,
+    }),
+
     new HtmlWebpackPlugin({
       template: path.join(__dirname, './src/index.html'), // 源文件
       filename: 'index.html' // 输出在服务器根目录的文件名, 文件存放在内存中, 不会在磁盘上显示
-    })
+    }),
+     new CleanWebpackPlugin()
   ]
 };
