@@ -1,0 +1,2025 @@
+更新版本号为：1.8.7
+constructor
+-------- undefined
+***************** undefined
+{
+  "hash": "3a3244a636e0fdcc71d7",
+  "version": "5.41.0",
+  "time": 411,
+  "builtAt": 1625122947659,
+  "publicPath": "auto",
+  "outputPath": "D:\\webpack-demo\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "style/main_1.8.7.css",
+      "main_1.8.7.js"
+    ],
+    "runtime": [
+      "runtime_1.8.7.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "runtime_1.8.7.js",
+      "size": 6360,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "runtime_1.8.7.js.map"
+        },
+        "size": 6360
+      },
+      "chunkNames": [
+        "runtime"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "runtime_1.8.7.js.map",
+          "size": 5383,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 5383
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "runtime"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "runtime"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "runtime"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main_1.8.7.js",
+      "size": 2516,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "main_1.8.7.js.map"
+        },
+        "size": 2516
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main_1.8.7.js.map",
+          "size": 1075,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 1075
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 521,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 521
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "style/main_1.8.7.css",
+      "size": 136,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "related": {
+          "sourceMap": "style/main_1.8.7.css.map"
+        },
+        "size": 136
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "style/main_1.8.7.css.map",
+          "size": 266,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 266
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "recorded": false,
+      "size": 749,
+      "sizes": {
+        "javascript": 656,
+        "css/mini-extract": 93
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "style/main_1.8.7.css",
+        "main_1.8.7.js"
+      ],
+      "auxiliaryFiles": [
+        "main_1.8.7.js.map",
+        "style/main_1.8.7.css.map"
+      ],
+      "hash": "4ed82b13aa72f3409f0a",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [
+        "runtime"
+      ],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/main.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 3273,
+      "sizes": {
+        "runtime": 3273
+      },
+      "names": [
+        "runtime"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime"
+      ],
+      "files": [
+        "runtime_1.8.7.js"
+      ],
+      "auxiliaryFiles": [
+        "runtime_1.8.7.js.map"
+      ],
+      "hash": "35290f6b473675f6ea5e",
+      "childrenByOrder": {},
+      "id": "runtime",
+      "siblings": [
+        "main"
+      ],
+      "parents": [],
+      "children": [],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/main.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 468,
+      "sizes": {
+        "javascript": 468
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\webpack-demo\\src\\main.js",
+      "name": "./src/main.js",
+      "nameForCondition": "D:\\webpack-demo\\src\\main.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 50,
+        "resolving": 43,
+        "restoring": 0,
+        "building": 7,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 43,
+        "dependencies": 0
+      },
+      "id": "./src/main.js",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/main.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/dynamic",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "external \"jQuery\"",
+      "name": "external \"jQuery\"",
+      "nameForCondition": null,
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\webpack-demo\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\webpack-demo\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "total": 50,
+            "resolving": 43,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 43,
+            "dependencies": 0
+          },
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "jquery",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "4:0-23",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "9:0-1",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "11:2-3",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "jquery",
+          "loc": "12:2-3",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 96,
+      "sizes": {
+        "javascript": 96
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\webpack-demo\\src\\hello.js",
+      "name": "./src/hello.js",
+      "nameForCondition": "D:\\webpack-demo\\src\\hello.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\webpack-demo\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\webpack-demo\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "total": 50,
+            "resolving": 43,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 43,
+            "dependencies": 0
+          },
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": "./src/hello.js",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\hello.js",
+          "module": "./src/hello.js",
+          "moduleName": "./src/hello.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\hello.js",
+          "resolvedModule": "./src/hello.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "1:0-14",
+          "moduleId": "./src/hello.js",
+          "resolvedModuleId": "./src/hello.js"
+        },
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./hello.js",
+          "loc": "5:0-31",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./hello.js",
+          "loc": "13:2-7",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 1:0-14"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "D:\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+      "name": "./src/main.css",
+      "nameForCondition": "D:\\webpack-demo\\src\\main.css",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\webpack-demo\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "D:\\webpack-demo\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "total": 50,
+            "resolving": 43,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 43,
+            "dependencies": 0
+          },
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 279,
+        "resolving": 65,
+        "restoring": 0,
+        "building": 214,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 65,
+        "dependencies": 0
+      },
+      "id": "./src/main.css",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./main.css",
+          "loc": "6:0-21",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "layer": null,
+      "size": 93,
+      "sizes": {
+        "css/mini-extract": 93
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/main.css",
+      "nameForCondition": "D:\\webpack-demo\\src\\main.css",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "D:\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+      "issuerName": "./src/main.css",
+      "issuerPath": [
+        {
+          "identifier": "D:\\webpack-demo\\src\\main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "total": 50,
+            "resolving": 43,
+            "restoring": 0,
+            "building": 7,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 43,
+            "dependencies": 0
+          },
+          "id": "./src/main.js"
+        },
+        {
+          "identifier": "D:\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "name": "./src/main.css",
+          "profile": {
+            "total": 279,
+            "resolving": 65,
+            "restoring": 0,
+            "building": 214,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 65,
+            "dependencies": 0
+          },
+          "id": "./src/main.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "profile": {
+        "total": 0,
+        "resolving": 0,
+        "restoring": 0,
+        "building": 0,
+        "integration": 0,
+        "storing": 0,
+        "additionalResolving": 0,
+        "additionalIntegration": 0,
+        "factory": 0,
+        "dependencies": 0
+      },
+      "id": null,
+      "issuerId": "./src/main.css",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "D:\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "module": "./src/main.css",
+          "moduleName": "./src/main.css",
+          "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "resolvedModule": "./src/main.css",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": "./src/main.css",
+          "resolvedModuleId": "./src/main.css"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 851,
+      "sizes": {
+        "runtime": 851
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/chunk loaded",
+      "name": "webpack/runtime/chunk loaded",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 267,
+      "sizes": {
+        "runtime": 267
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1485,
+      "sizes": {
+        "runtime": 1485
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "runtime"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "runtime",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "runtime_1.8.7.js",
+          "size": 6360
+        },
+        {
+          "name": "style/main_1.8.7.css",
+          "size": 136
+        },
+        {
+          "name": "main_1.8.7.js",
+          "size": 2516
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 9012,
+      "auxiliaryAssets": [
+        {
+          "name": "main_1.8.7.js.map",
+          "size": 1075
+        },
+        {
+          "name": "runtime_1.8.7.js.map",
+          "size": 5383
+        },
+        {
+          "name": "style/main_1.8.7.css.map",
+          "size": 266
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 6724,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "runtime",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "runtime_1.8.7.js",
+          "size": 6360
+        },
+        {
+          "name": "style/main_1.8.7.css",
+          "size": 136
+        },
+        {
+          "name": "main_1.8.7.js",
+          "size": 2516
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 9012,
+      "auxiliaryAssets": [
+        {
+          "name": "main_1.8.7.js.map",
+          "size": 1075
+        },
+        {
+          "name": "runtime_1.8.7.js.map",
+          "size": 5383
+        },
+        {
+          "name": "style/main_1.8.7.css.map",
+          "size": 266
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 6724,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "172f95d4a118a18cee8a",
+      "version": "5.41.0",
+      "time": 117,
+      "builtAt": 1625122947392,
+      "publicPath": "",
+      "outputPath": "D:\\webpack-demo\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1447,
+          "sizes": {
+            "javascript": 713,
+            "runtime": 734
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "d833542eb854672806da",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "D:\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\webpack-demo\\src\\index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 20,
+            "resolving": 8,
+            "restoring": 0,
+            "building": 12,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 8,
+            "dependencies": 0
+          },
+          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 636,
+          "sizes": {
+            "javascript": 636
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\webpack-demo\\src\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "D:\\webpack-demo\\src\\index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\webpack-demo\\src\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\webpack-demo\\src\\index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:85-99",
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "D:\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\webpack-demo\\src\\index.html",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:85-99"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 345,
+          "sizes": {
+            "runtime": 345
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+      "hash": "11883e1e081af3846e8d",
+      "version": "5.41.0",
+      "time": 193,
+      "builtAt": 1625122947608,
+      "publicPath": "",
+      "outputPath": "D:\\webpack-demo\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 5619,
+          "sizes": {
+            "javascript": 4682,
+            "runtime": 937
+          },
+          "names": [
+            "child"
+          ],
+          "idHints": [],
+          "runtime": [
+            "child"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "229f8b8c7f62d8ffdaee",
+          "childrenByOrder": {},
+          "id": "child",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "child",
+              "request": "!!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 799,
+          "sizes": {
+            "javascript": 799
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "nameForCondition": "D:\\webpack-demo\\src\\main.css",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 161,
+            "resolving": 1,
+            "restoring": 0,
+            "building": 160,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 1,
+            "dependencies": 0
+          },
+          "id": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerId": null,
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "loc": "child",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2278,
+          "sizes": {
+            "javascript": 2278
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "name": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "nameForCondition": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "profile": {
+                "total": 161,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 160,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+              },
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "2:0-118",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            },
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "loc": "4:58-95",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            },
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+              "module": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\cssWithMappingToString.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "15:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 15:0-14"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1605,
+          "sizes": {
+            "javascript": 1605
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "issuerPath": [
+            {
+              "identifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "profile": {
+                "total": 161,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 160,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+              },
+              "id": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "profile": {
+            "total": 0,
+            "resolving": 0,
+            "restoring": 0,
+            "building": 0,
+            "integration": 0,
+            "storing": 0,
+            "additionalResolving": 0,
+            "additionalIntegration": 0,
+            "factory": 0,
+            "dependencies": 0
+          },
+          "id": "./node_modules/css-loader/dist/runtime/api.js",
+          "issuerId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:0-89",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            },
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\cjs.js!D:\\webpack-demo\\src\\main.css",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "4:30-57",
+              "moduleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css",
+              "resolvedModuleId": "./node_modules/css-loader/dist/cjs.js!./src/main.css"
+            },
+            {
+              "moduleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "D:\\webpack-demo\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:0-14",
+              "moduleId": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleId": "./node_modules/css-loader/dist/runtime/api.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 9:0-14"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 267,
+          "sizes": {
+            "runtime": 267
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            "child"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}

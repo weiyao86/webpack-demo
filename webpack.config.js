@@ -3,27 +3,60 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ChangeVersion = require('./config/plugin/changeVersion');//更改版本号
-/*自定义插件*/
-let version=0;
-ChangeVersion((v)=>version=v);
+const webpack = require('webpack');
+/*自定义插件--Loader*/
+
+let version = 0;
+ChangeVersion((v) => version = v);
+
+const PluginsTemp = class PluginsTemp {
+  // apply(compiler){
+  //   compiler.plugin('compile',(a,b)=>{
+  //     debugger;
+  //     console.log(a,b,'*****************',process.env.NODE_ENV);
+  //   })
+
+  // }
+  constructor(doneCallback, failCallback) {
+    console.log('constructor')
+
+  }
+
+  apply(compiler) {
+    
+
+    compiler.hooks.done.tap('PluginsTemp', () => {
+
+      console.log('*****************', process.env.NODE_ENV);
+      // 在你想要触发钩子的位置/时机下调用……
+    });
+  }
+}
 
 module.exports = {
+  target: 'web',
   entry: './src/main.js', // 入口, 可以为相对路径, 当然绝对路径也没错
   output: { // 输出配置
     path: path.join(__dirname, './dist'), // 输出的目录
     filename: `[name]_${version}.js` // 输出的文件名
   },
-  mode: 'production', // 打包的模式, production | development
+  devtool: 'cheap-module-source-map',//hidden-source-map source-map
+  mode: 'development', // 打包的模式, production | development
   module: {
     rules: [{
       test: /\.css$/,
-      use: [MiniCssExtractPlugin.loader, 'css-loader']
+      use: [MiniCssExtractPlugin.loader, 'css-loader', { loader: 'demo-loader', options: { query: 'query-test' } }]//,
+    }, {
+      test: /\.js$/,
+      exclude: path.resolve(__dirname, 'node_modules'),
+      // use: [{loader:'demo-loader',options:{query:'query-test'}}]
     }]
   },
 
-  // externals: {
-  //   jquery: 'jQuery',
-  // },
+  //告诉 Webpack 要构建的代码中使用了哪些不用被打包的模块，也就是说这些模版是外部环境提供的，Webpack 在打包时可以忽略它们
+  externals: {
+    jquery: 'jQuery',
+  },
   optimization: {
     splitChunks: {
       chunks: 'all', // all, async, initial 三选一, 插件作用的chunks范围// initial只对入口文件处理
@@ -43,14 +76,30 @@ module.exports = {
     },
     runtimeChunk: 'single',
   },
+  resolveLoader: {
+    modules: ['node_modules', path.resolve(__dirname, 'config/loader')]
+  },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
+    headers: {
+      'X-foo': 'bar'
+    },
     compress: true,
     port: 9000,
-    open: true,
+    host: '0.0.0.0',
+    open: false,
     hot: true
   },
   plugins: [
+    new webpack.DefinePlugin({
+      "process.env": {
+        // This has effect on the react lib size
+        NODE_ENV: JSON.stringify("development"),
+      }
+    }),
+
+    new PluginsTemp(),
+
     new MiniCssExtractPlugin({
       filename: `style/[name]_${version}.css`,
       chunkFilename: `chunk/[name]_${version}.css`,
@@ -61,6 +110,6 @@ module.exports = {
       template: path.join(__dirname, './src/index.html'), // 源文件
       filename: 'index.html' // 输出在服务器根目录的文件名, 文件存放在内存中, 不会在磁盘上显示
     }),
-     new CleanWebpackPlugin()
+    new CleanWebpackPlugin()
   ]
 };

@@ -5,7 +5,9 @@ import $ from 'jquery';
 import Hello from './hello.js';
 require('./main.css');
 //此处为案例  js代码,可以忽略,(隔行变色)
+
 $(function () {  
+  
   $('ul>li:odd').css('backgroundColor', 'pink')
   $('ul>li:even').css('backgroundColor', 'red');
   Hello();

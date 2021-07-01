@@ -1,6 +1,6 @@
 {
 	"name": "tt",
-	"version": "1.0.4",
+	"version": "2.2.7",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -13,7 +13,6 @@
 		"clean-webpack-plugin": "^4.0.0-alpha.0",
 		"css-loader": "^5.2.6",
 		"html-webpack-plugin": "^5.3.2",
-		"jquery": "^3.6.0",
 		"style-loader": "^3.0.0",
 		"webpack": "^5.41.0",
 		"webpack-cli": "^3.3.12",
