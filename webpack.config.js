@@ -10,13 +10,7 @@ let version = 0;
 ChangeVersion((v) => version = v);
 
 const PluginsTemp = class PluginsTemp {
-  // apply(compiler){
-  //   compiler.plugin('compile',(a,b)=>{
-  //     debugger;
-  //     console.log(a,b,'*****************',process.env.NODE_ENV);
-  //   })
-
-  // }
+  
   constructor(doneCallback, failCallback) {
     console.log('constructor')
 
@@ -25,10 +19,14 @@ const PluginsTemp = class PluginsTemp {
   apply(compiler) {
     
 
-    compiler.hooks.done.tap('PluginsTemp', () => {
+    compiler.hooks.afterCompile.tap('abc', (compilation,callback) => {
 
       console.log('*****************', process.env.NODE_ENV);
       // 在你想要触发钩子的位置/时机下调用……
+      
+      console.log(compilation.options.plugins);
+      return compilation;
+      
     });
   }
 }
